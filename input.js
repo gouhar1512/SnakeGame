@@ -1,5 +1,5 @@
-let inputDirection = { r: 0, c: 0 };
-let lastInputDirection = { r: 0, c: 0 };
+var inputDirection = { r: 0, c: 0 };
+var lastInputDirection = { r: 0, c: 0 };
 window.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "ArrowUp":
